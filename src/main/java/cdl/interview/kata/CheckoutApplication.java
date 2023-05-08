@@ -19,9 +19,10 @@ public class CheckoutApplication {
 
         CheckoutService checkoutService = new CheckoutServiceImpl(ItemCatalogueRepository.getItemCatalogue(), PricingRuleCatalogueRepository.getPricingRuleCatalogue());
 
+        System.out.println("Please enter items to scan");
         while (scanner.hasNextLine()) {
-            System.out.print("Scanned item =  ");
             String input = scanner.nextLine();
+            System.out.println("Scanned item =  " + input);
             if (input.isEmpty()) {
                 break;
             }
