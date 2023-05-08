@@ -14,4 +14,3 @@ Our checkoutImpl accepts items in any order, so that if we scan a B, an A, and a
 
 The solution should allow for items to input at the command line, and allow for a final total to be calculated and for a running total after each item is ‘scanned’.
 
-Please use Java for the solution and place this onto a publicly accessible Github repository and let us know where it is.
